@@ -4,6 +4,9 @@ header {
   font-size: 2rem;
   font-weight: bold;
   padding: 2rem; }
+  header a {
+    text-decoration: none;
+    color: orange; }
 
 .staff {
   padding: 2rem; }
@@ -12,5 +15,17 @@ header {
   padding: 1rem;
   background-color: gray;
   margin: 5px; }
+
+input, label {
+  display: block; }
+
+input {
+  margin: 1rem 0; }
+
+.staff-list a {
+  text-decoration: none;
+  color: black; }
+  .staff-list a:hover {
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

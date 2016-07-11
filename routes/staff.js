@@ -11,7 +11,11 @@ router.get('/', function(req, res, next) {
   });
 });
 
-router.post('/add', function(req, res){
+router.get('/new', function(req, res){
+  res.render('add-staff')
+})
+
+router.post('/', function(req, res){
   queries.addStaff(req.body)
   .then(function(){
     res.redirect('/staff');

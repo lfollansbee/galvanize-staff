@@ -4,6 +4,10 @@ header{
   font-size: 2rem;
   font-weight: bold;
   padding: 2rem;
+  a{
+    text-decoration: none;
+    color: orange;
+  }
 }
 
 .staff{
@@ -14,4 +18,20 @@ header{
   padding: 1rem;
   background-color: gray;
   margin: 5px;
+}
+
+input, label{
+  display: block;
+}
+
+input{
+  margin: 1rem 0;
+}
+
+.staff-list a{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    font-weight: bold;
+  }
 }
