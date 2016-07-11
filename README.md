@@ -1,6 +1,6 @@
 #Galvanize Staff
 
-
+Paragraph about galvanize staff
 
 ##Installation
 
